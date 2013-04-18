@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aula 1 - Relatório</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Cadastro pessoal</string>
+    <string name="name">Nome: </string>
+    <string name="sex">Sexo: </string>
+    <string name="man">Homen</string>
+    <string name="woman">Mulher</string>
+    <string name="preferences">Preferências: </string>
+    <string name="study">Estudar</string>
+    <string name="listen_music">Ouvir musica</string>
+    <string name="run">Correr</string>
+    <string name="generate_report">Gerar relatório</string>
+     <string name="report">Relatório</string>
+    
+
+</resources>
