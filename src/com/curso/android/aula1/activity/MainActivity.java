@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.curso.android.aula1.R;
 import com.curso.android.aula1.domain.Registry;
 
-public class Aula1Activity extends Activity {
+public class MainActivity extends Activity {
 	
 	private EditText editName;
 	
@@ -84,7 +84,7 @@ public class Aula1Activity extends Activity {
 			
 			registry.setPreferences(preferences);
 			registries.add(registry);
-			Toast.makeText(Aula1Activity.this, "Registro inserido", Toast.LENGTH_LONG).show();
+			Toast.makeText(MainActivity.this, "Registro inserido", Toast.LENGTH_LONG).show();
 			cleanFields();
 			
 		}
@@ -102,7 +102,7 @@ public class Aula1Activity extends Activity {
 		
 		@Override
 		public void onClick(View arg0) {
-			final Intent intent = new Intent(Aula1Activity.this, ListRegistryActivity.class);
+			final Intent intent = new Intent(MainActivity.this, ListRegistryActivity.class);
 			intent.putExtra("Registries", registries);
 			startActivity(intent);
 		}
