@@ -114,11 +114,22 @@
 
     
     <!-- Gerar relatorio -->
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/generate_report" />
-
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+	    <Button
+	        android:id="@+id/buttonInsert"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/insert_registry" />
+	    
+	     <Button
+	        android:id="@+id/buttonList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/list_registry" />
+    </LinearLayout>
 </LinearLayout>

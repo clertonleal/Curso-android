@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.curso.android.aula1.Aula1Activity"
+            android:name="com.curso.android.aula1.activity.Aula1Activity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +24,13 @@
         </activity>
         
         <activity
-            android:name="com.curso.android.aula1.ReportActivity"
-            android:label="@string/report" >
+            android:name="com.curso.android.aula1.activity.ListRegistryActivity"
+            android:label="@string/list_registry" >
+        </activity>
+        
+        <activity
+            android:name="com.curso.android.aula1.activity.ReportActivity"
+            android:label="@string/list_registry" >
         </activity>
         
     </application>

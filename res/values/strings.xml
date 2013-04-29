@@ -13,8 +13,8 @@
     <string name="study">Estudar</string>
     <string name="listen_music">Ouvir musica</string>
     <string name="run">Correr</string>
-    <string name="generate_report">Gerar relatório</string>
-     <string name="report">Relatório</string>
+    <string name="insert_registry">Inserir registro</string>
+     <string name="list_registry">Listar registros</string>
     
 
 </resources>
